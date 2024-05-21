@@ -1,0 +1,87 @@
+.code-pen-heading {
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.code-pen-heading > .CodePen-img img {
+    width: 300px;
+    height: 50px;
+}
+
+/* explore menu */
+
+.code-pen-heading > .explore-menu > .explore-links {
+    display: flex;
+    align-items: center;
+}
+
+.code-pen-heading > .explore-menu {
+    margin-right: 50px;
+    font-size: 1.2rem;
+}
+
+.code-pen-heading > .explore-menu > .explore-links > .explore-link {
+    margin-right: 7px;
+    font-weight: 900;
+}
+
+.code-pen-heading > .explore-menu > .explore-links > .spark-link {
+    font-size: 0.95em;
+    color: gray;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.code-pen-heading > .explore-menu > .explore-links > .spark-link > .down-chevron {
+    margin-left: 4px;
+    font-size: 1.15em;
+}
+
+.code-pen-heading > .explore-menu > .yellow-sign {
+    color: #CCCC66;
+    font-size: 0.95em;
+    margin-bottom: 5px;
+}
+
+/* buttons */
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.buttons > .btn-wrapper {
+    margin: 8px;
+}
+
+.buttons > .btn-wrapper :nth-child(1){
+    display: flex;
+    align-items: center;
+}
+
+.buttons > .btn-wrapper :nth-child(1) > .check-mark {
+    margin-left: 8px;
+    color: rgb(0, 207, 0);
+}
+
+.buttons > .search-icon i {
+    font-size: 2em;
+    color: #53565b;
+}
+
+.buttons > .btn-wrapper  .btn {
+    background-color: #53565b;
+    color: white;
+    font-size: 1.0rem;
+    padding: 15px 30px;
+    border: 1px solid #53565b;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.3s;
+}

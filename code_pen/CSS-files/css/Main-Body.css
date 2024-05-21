@@ -1,0 +1,75 @@
+.code-pen-desc {
+    background-color: #393d47;
+    width: 100%;
+    height: 450px;
+    margin-top: -16px;
+    box-shadow: inset -100px -50px 250px 85px rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.the-paragraphs {
+    font-size: 2rem;
+    color: #888B8D;
+    font-weight: 100;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.the-paragraphs > .paragraph-2 p {
+    font-size: 1.5rem;
+}
+
+.the-paragraphs > .paragraph-1 p span{
+    font-size: 1.2em;
+    font-weight: 900;
+    color: white;
+}
+
+/* buttons */
+
+.code-pen-desc > .the-paragraphs > .sign-up-buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.code-pen-desc > .the-paragraphs > .sign-up-buttons > .learn-more-button > .btn{
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    padding: 15px 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+.code-pen-desc > .the-paragraphs > .sign-up-buttons > .sign-up > .btn{
+    background-color: #77dd77;
+    color: black;
+    font-size: 1.3rem;
+    padding: 15px 30px;
+    border: 1px solid #77dd77;
+    border-radius: 4px;
+    outline: none;
+    font-weight: 500;
+}
+
+.main-body-image > .real-image img {
+    height: 400px;
+    width: 500px;
+}
+
+.main-body-image {
+    margin-bottom: -37px;
+}
+
+.main-body-image a {
+    text-decoration: none;
+    color: #00AEEF;
+}
+
